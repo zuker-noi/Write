@@ -2,11 +2,11 @@
 
 {
   const ham = document.getElementById('ham');
-  const menu_wrapper = document.getElementById('menu_wrapper');
+  const overlay = document.querySelector('.overlay');
 
   ham.addEventListener('click', () => {
     ham.classList.toggle('clicked');
-    menu_wrapper.classList.toggle('clicked');
+    overlay.classList.toggle('clicked');
   });
 
 
