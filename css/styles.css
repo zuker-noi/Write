@@ -12,6 +12,29 @@ a {
 	color: gray;
 }
 
+h1 {
+	margin: 40px auto 0;
+	font-size: 30px;
+	line-height: 1.4;
+}
+
+p {
+	color: gray;
+	font-size: 14px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 5px auto 25px;
+}
+
+h3 {
+	font-size: 11px;
+	margin: 40px auto 25px;
+}
+
+
 .ham {
   position: absolute;
 	right: 0;
@@ -89,19 +112,6 @@ a {
 }
 
 
-
-h1 {
-	margin: 40px auto 0;
-	font-size: 30px;
-	line-height: 1.4;
-}
-
-p {
-	color: gray;
-	font-size: 14px;
-	margin: 0;
-}
-
 .title {
 	margin: 0 auto 55px;
 }
@@ -131,11 +141,6 @@ p {
 	margin-bottom: 65px;
 }
 
-h2 {
-	font-size: 18px;
-	margin: 5px auto 25px;
-}
-
 .nextbtn {
 	border: 1px solid gray;
 	height: 42px;
@@ -155,12 +160,6 @@ h2 {
 .photo {
 	width: 100px;
 	border-radius: 50%;
-}
-
-
-h3 {
-	font-size: 11px;
-	margin: 40px auto 25px;
 }
 
 .bottom-contents {
