@@ -185,7 +185,96 @@ input {
 	padding: 0 5px;
 }
 
-/* large screen */
-@media (min-width: 600px) {
+.pc-menu {
+	display: none;
+}
 
+/* midium screen */
+@media (min-width: 600px) {
+	body {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+	header {
+		display: flex;
+	}
+	.ham {
+		display: none;
+	}
+	.pc-menu {
+		display: block;
+		margin-left: auto;
+		line-height: 150px;
+	}
+	.pc-menu ul {
+		display: flex;
+	}
+	.pc-menu li {
+		margin-right: 20px;
+	}
+	.diary .date {
+		font-size: 17px;
+	}
+	.diary-text h2 {
+		font-size: 20px;
+	}
+	.diary-text p {
+		font-size: 17px;
+	}
+	.low-main p {
+		font-size: 17px;
+	}
+	.bottom-contents h3 {
+		font-size: 20px;
+	}
+	.bottom-contents p {
+		font-size: 17px;
+	}
+	hr {
+		margin: 0;
+	}
+	.credit {
+		text-align: center;
+		height: 80px;
+		line-height: 80px;
+		font-size: 19px;
+	}
+}
+
+/* large screen */
+@media (min-width: 800px) {
+	body {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	.diary {
+		display: flex;
+		justify-content: space-between;
+	}
+	.diary .date {
+		width: 200px;
+		padding-top: 10px;
+	}
+	.diary-text {
+		width: 700px;
+	}
+	.low-main {
+		display: flex;
+		justify-content: space-between;
+	}
+	.low-main-contents {
+		display: flex;
+		justify-content: space-between;
+		width: 720px;
+	}
+	.profile-area {
+		width: 180px;
+	}
+	.bottom-contents {
+		width: 190px;
+	}
+	.bottom-contents input {
+		width: 180px;
+	}
 }
